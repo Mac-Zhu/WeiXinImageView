@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mac.chu.weixinimagview">
+    package="com.mac.chu.weixinimageview">
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ImagViewDetailActivity"
+            android:name="com.mac.chu.weixinimageview.ImagViewDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
 

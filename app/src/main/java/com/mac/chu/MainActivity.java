@@ -2,7 +2,6 @@ package com.mac.chu;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -10,10 +9,9 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.mac.chu.weixinimagview.Contstant;
-import com.mac.chu.weixinimagview.ImagViewDetailActivity;
-import com.mac.chu.weixinimagview.R;
-import com.squareup.picasso.Callback;
+import com.mac.chu.weixinimageview.Contstant;
+import com.mac.chu.weixinimageview.ImagViewDetailActivity;
+import com.mac.chu.weixinimageview.R;
 import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity {

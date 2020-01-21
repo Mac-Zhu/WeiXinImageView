@@ -1,4 +1,4 @@
-package com.mac.chu.weixinimagview;
+package com.mac.chu.weixinimageview;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,8 +14,8 @@ import java.io.File;
  * Created by Mac on 2020/1/20
  * .
  */
-public class ImagViewDetailActivity extends Activity implements View.OnClickListener, WeiXinImagView.TransformListener {
-    private WeiXinImagView imageView = null;
+public class ImagViewDetailActivity extends Activity implements View.OnClickListener, WeiXinImageView.TransformListener {
+    private WeiXinImageView imageView = null;
     private String imageUrl;
     private String imageUrlType;
 
@@ -30,7 +30,7 @@ public class ImagViewDetailActivity extends Activity implements View.OnClickList
         int mWidth = mIntent.getIntExtra(Contstant.WIDTH, 0);
         int mHeight = mIntent.getIntExtra(Contstant.HEIGHT, 0);
 
-        imageView = new WeiXinImagView(this);
+        imageView = new WeiXinImageView(this);
 
         imageView.setOriginalInfo(mWidth, mHeight, mLocationX, mLocationY);
         imageView.transformIn();

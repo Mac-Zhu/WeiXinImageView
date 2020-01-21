@@ -1,4 +1,4 @@
-package com.mac.chu.weixinimagview;
+package com.mac.chu.weixinimageview;
 
 import android.graphics.PointF;
 import android.graphics.RectF;

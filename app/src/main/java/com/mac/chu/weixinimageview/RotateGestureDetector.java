@@ -1,4 +1,4 @@
-package com.mac.chu.weixinimagview;
+package com.mac.chu.weixinimageview;
 
 import android.view.MotionEvent;
 

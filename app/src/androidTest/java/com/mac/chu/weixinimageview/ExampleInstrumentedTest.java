@@ -1,4 +1,4 @@
-package com.mac.chu.weixinimagview;
+package com.mac.chu.weixinimageview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
